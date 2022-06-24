@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: namu6747                          # the main title
 
-tagline: 청춘 돼지는 바니걸 선배의 꿈을 꾸지 않는다.   # it will display as the sub-title
+tagline: 공부 기록용   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.

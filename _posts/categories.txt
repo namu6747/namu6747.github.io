@@ -1,0 +1,16 @@
+카테고리는 하위 페이지 하나까지만 생성가능하므로
+
+주제로 바로 파고 들어야한다.
+
+Collection Stream 기준
+
+1. Study
+2. JAVA
+title : Collection Stream
+
+1.Study
+2.Datebase
+title : 이것이 mysql이다.
+
+1.아무말
+2. 인사이트
