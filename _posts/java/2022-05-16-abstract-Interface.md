@@ -2,7 +2,7 @@
 title: 인터페이스와 추상클래스
 author: namu6747
 date: 2022-05-16 09:11:00 +0900
-categories: [공부, 자바]
+categories: [그 외, deprecated]
 tags: [자바, 인터페이스, 추상클래스]
 ---
 

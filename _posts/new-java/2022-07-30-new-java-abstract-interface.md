@@ -2,7 +2,7 @@
 title: 자바 추상 클래스와 인터페이스
 author: namu6747
 date: 2022-07-30 09:06:00 +0900
-categories: [new 공부, 자바]
+categories: [공부, 자바]
 tags: [자바, 추상클래스, 인터페이스]
 ---
 

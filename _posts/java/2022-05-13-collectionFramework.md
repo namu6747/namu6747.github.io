@@ -2,7 +2,7 @@
 title: 컬렉션 프레임워크
 author: namu6747
 date: 2022-05-13 09:11:00 +0900
-categories: [공부, 자바]
+categories: [그 외, deprecated]
 tags: [자바, 컬렉션 프레임워크]
 ---
 

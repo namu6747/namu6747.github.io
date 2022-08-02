@@ -2,7 +2,7 @@
 title: 자바 스레드
 author: namu6747
 date: 2022-07-30 09:05:00 +0900
-categories: [new 공부, 자바]
+categories: [공부, 자바]
 tags: [자바, 스레드]
 ---
 

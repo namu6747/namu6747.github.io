@@ -2,7 +2,7 @@
 title: 자바 컬렉션 프레임워크
 author: namu6747
 date: 2022-07-30 09:03:00 +0900
-categories: [new 공부, 자바]
+categories: [공부, 자바]
 tags: [자바, 컬렉션프레임워크]
 ---
 
