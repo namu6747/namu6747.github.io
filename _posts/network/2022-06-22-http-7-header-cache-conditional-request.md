@@ -2,7 +2,7 @@
 title: HTTP - 7 - header - caching & conditional request
 author: namu6747
 date: 2022-06-23 09:11:00 +0900
-categories: [공부, 네트워크]
+categories: [공부, HTTP]
 tags: [HTTP, 자바, 웹]
 ---
 
