@@ -8,8 +8,9 @@ tags: [스프링, 자바, 포트폴리오]
 <hr/>
 
 이번 포트폴리오에서 굉장히 큰 도움을 받은 블로그 
-> [Yun Blog](https://cheese10yun.github.io/spring-guide-directory/)
-&nbsp; 감사합니다.
+
+**[Yun Blog](https://cheese10yun.github.io/spring-guide-directory/)**
+
 
 해당 페이지 이외에도 눈여겨 볼 포스트들이 굉장히 많다.
 
