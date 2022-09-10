@@ -1,7 +1,7 @@
 ---
-title: 17. 팀원 교육 - Betty
+title: 15. 후기 - Betty
 author: namu6747
-date: 2022-09-06 09:17:00 +0900
+date: 2022-09-06 09:15:00 +0900
 categories: [프로젝트, Betty]
 tags: [스프링, 자바, 포트폴리오]
 ---
