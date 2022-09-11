@@ -1,5 +1,5 @@
 ---
-title: 12. about ajax & DTO - Betty
+title: 12. about ajax - Betty
 author: namu6747
 date: 2022-09-06 09:12:00 +0900
 categories: [프로젝트, Betty]
