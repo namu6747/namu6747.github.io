@@ -6,6 +6,24 @@ categories: [프로젝트, Betty]
 tags: [스프링, 자바, 포트폴리오]
 ---
 
+## &nbsp;&nbsp;&nbsp; index
+1. [서론](/posts/project-betty-0/)
+2. [기획 및 명세](/posts/project-betty-1-concept/)
+3. [패키지 트리](/posts/project-betty-2-package-tree/)
+4. [프로젝트 환경](/posts/project-betty-3-config/)
+5. [메시지와 국제화](/posts/project-betty-4-message/)
+6. [예외 다루기](/posts/project-betty-5-exception/)
+7. [검증](/posts/project-betty-6-validation/)
+8. [계정 관련](/posts/project-betty-7-sign/)
+9. [권한 인터셉터](/posts/project-betty-8-interceptor/)
+10. [도서 관련](/posts/project-betty-9-book/)
+11. [대여 관련](/posts/project-betty-10-rental/)
+12. [오프라인 관련](/posts/project-betty-11-offline/)
+13. [about ajax](/posts/project-betty-12-ajax/)
+14. [팀원 교육 - ajax](/posts/project-betty-13-edu-ajax/)
+15. [DTO, Form, VO, Entity ?](/posts/project-betty-14-object/)
+16. [후기](/posts/project-betty-15-review/)
+
 <hr/>
 
 ### 패키지 트리를 어떻게 분류할 지는 다양한 방법이 있을 것이다.
