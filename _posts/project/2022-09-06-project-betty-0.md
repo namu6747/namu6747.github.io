@@ -6,6 +6,8 @@ categories: [프로젝트, Betty]
 tags: [스프링, 자바, 포트폴리오]
 ---
 
+
+
 ## &nbsp;&nbsp;&nbsp; index
 1. [서론](/posts/project-betty-0/)
 2. [기획 및 명세](/posts/project-betty-1-concept/)
@@ -24,21 +26,15 @@ tags: [스프링, 자바, 포트폴리오]
 15. [DTO, Form, VO, Entity ?](/posts/project-betty-14-object/)
 16. [후기](/posts/project-betty-15-review/)
 
+<br/>
 <hr/>
-<br/>
 
-이번 포트폴리오에서 굉장히 큰 도움을 받은 블로그 
+**기능 시연 연상**
 
-**[Yun Blog](https://cheese10yun.github.io/spring-guide-directory/)**
-
-해당 페이지 이외에도 눈여겨 볼 포스트들이 굉장히 많다.
-
-* 모든 도서 관련 자료들은 [알라딘](https://www.aladin.co.kr/home/welcome.aspx) 사이트를 참고하였습니다.
+<iframe width="689" height="388" src="https://www.youtube.com/embed/TkyQesvB-lY" title="koreate(한국기술교육직업전문학교) 최종 프로젝트 Betty 시연 영상" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/>
-
----
-
+<hr/>
 <br/>
 
 기분이 좋다.     
@@ -63,7 +59,7 @@ __도서관과 독서실이 결합한 유료 시스템__
 <br/>
 <hr/>
 
-## 간단히 maven 의존성만 살펴보자
+## 간단히 maven 의존성부터 살펴보자
 <br/>
 
 **옮겨 놓으니 우측 바가 아름답게 흩날린다..  

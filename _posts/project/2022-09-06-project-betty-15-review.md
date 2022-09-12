@@ -79,6 +79,17 @@ section container 에 대한 기준을 잡아줬어야 했다.
 
 아무튼 기능적인건 나머지 대부분 비슷비슷한 것들이니깐 그만 다뤄야겠다.  
 
+
 <br/>
 <hr/>
 
+
+이번 포트폴리오에서 굉장히 큰 도움을 받은 블로그 
+
+**[Yun Blog](https://cheese10yun.github.io/spring-guide-directory/)**
+
+해당 페이지 이외에도 눈여겨 볼 포스트들이 굉장히 많다.
+
+<br/>
+
+모든 도서 관련 자료들은 [알라딘](https://www.aladin.co.kr/home/welcome.aspx) 사이트를 참고하였습니다.
