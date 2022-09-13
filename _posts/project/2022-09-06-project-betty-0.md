@@ -6,34 +6,32 @@ categories: [프로젝트, Betty]
 tags: [스프링, 자바, 포트폴리오]
 ---
 
-
-
 ## &nbsp;&nbsp;&nbsp; index
-1. [서론](/posts/project-betty-0/)
-2. [기획 및 명세](/posts/project-betty-1-concept/)
-3. [패키지 트리](/posts/project-betty-2-package-tree/)
-4. [프로젝트 환경](/posts/project-betty-3-config/)
-5. [메시지와 국제화](/posts/project-betty-4-message/)
-6. [예외 다루기](/posts/project-betty-5-exception/)
-7. [검증](/posts/project-betty-6-validation/)
-8. [계정 관련](/posts/project-betty-7-sign/)
-9. [권한 인터셉터](/posts/project-betty-8-interceptor/)
-10. [도서 관련](/posts/project-betty-9-book/)
-11. [대여 관련](/posts/project-betty-10-rental/)
-12. [오프라인 관련](/posts/project-betty-11-offline/)
-13. [about ajax](/posts/project-betty-12-ajax/)
-14. [팀원 교육 - ajax](/posts/project-betty-13-edu-ajax/)
-15. [DTO, Form, VO, Entity ?](/posts/project-betty-14-object/)
-16. [후기](/posts/project-betty-15-review/)
+0. [서론](/posts/project-betty-0/)
+1. [기획 및 명세](/posts/project-betty-1-concept/)
+2. [패키지 트리](/posts/project-betty-2-package-tree/)
+3. [프로젝트 환경](/posts/project-betty-3-config/)
+4. [메시지와 국제화](/posts/project-betty-4-message/)
+5. [예외 다루기](/posts/project-betty-5-exception/)
+6. [검증](/posts/project-betty-6-validation/)
+7. [계정 관련](/posts/project-betty-7-sign/)
+8. [권한 인터셉터](/posts/project-betty-8-interceptor/)
+9. [도서 관련](/posts/project-betty-9-book/)
+10. [대여 관련](/posts/project-betty-10-rental/)
+11. [오프라인 관련](/posts/project-betty-11-offline/)
+12. [about ajax](/posts/project-betty-12-ajax/)
+13. [팀원 교육 - ajax](/posts/project-betty-13-edu-ajax/)
+14. [DTO, Form, VO, Entity ?](/posts/project-betty-14-object/)
+15. [후기](/posts/project-betty-15-review/)
 
 <br/>
 <hr/>
 
 **기능 시연 연상**
 
-[Youtube 에서 보기](https://youtu.be/TkyQesvB-lY)
+[Youtube 에서 보기](https://youtu.be/AFNmRdEg1ck)
 
-<iframe width="689" height="388" src="https://www.youtube.com/embed/TkyQesvB-lY" title="koreate(한국기술교육직업전문학교) 최종 프로젝트 Betty 시연 영상" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/AFNmRdEg1ck" title="한국기술교육직업전문학교 최종 프로젝트 Betty 시연 영상" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br/>
 <hr/>
@@ -64,102 +62,22 @@ __도서관과 독서실이 결합한 유료 시스템__
 ## 간단히 maven 의존성부터 살펴보자
 <br/>
 
-**옮겨 놓으니 우측 바가 아름답게 흩날린다..  
-프로젝트의 끝을 알리는 예술로 바라보자.**  
+![dependency0](/assets/img/betty/intro/top.png)
+<br/>
 
-```
+![dependency1](/assets/img/betty/intro/middle.png)
+<br/>
 
-+========================== <properties> ===========================+
-|<java-version>1.8</java-version>									|
-|<org.springframework-version>5.3.22</org.springframework-version>	|
-|<org.aspectj-version>1.9.9.1</org.aspectj-version>					|
-|<org.slf4j-version>1.7.36</org.slf4j-version>						|
-+===================================================================+
-
-+========================== <dependencies> =========================+
-|																	|
-|	+===================== AOP =====================+				|
-|	| ADD spring-aop 								|				|
-|	| ADD aspectjweaver 							|				|
-|	| ADD aspectjrt 								|				|
-|	| 	CHANGE version to reference DELETE scope	|				|
-|	| ADD aspectjtools 								|				|
-|	+===============================================+				|
-|																	|
-|	+=============== Log4j =====================+					|
-|	| CHANGE  log4j version 1.2.15 -> 1.2.17	|					|
-|	| ADD log4jdbc-log4j2-jdbc4.1				|					|
-|	+===========================================+					|
-|																	|
-|	+======== Servlet ==========+									|
-|	| DELETE servlet-api		|									|
-|	| DELETE jsp-api			|									|
-|	|   						|									|
-|	| ADD javax.servlet-api 	|									|
-|	| ADD javax.servlet.jsp-api |									|
-|	+===========================+									|
-| 																	|
-|	+======== Database =========+									|
-|	| ADD mysql-connector-java 	|									|
-|	| ADD spring-jdbc 			|									|
-|	| ADD mybatis 				|									|
-|	| ADD mybatis-spring 		|									|
-|	| ADD HikariCP 				|									|
-|	+===========================+									|
-| 																	|
-|	+============== Test ================+							|
-|	| ADD spring-test					 |							|
-|	| ADD assertj-core					 |							|
-|	| junit CHANGE version 4.7 -> 4.13.2 |							|
-|	+====================================+							|
-|																	|
-|	 +======= FileUpload =======+									|
-|	 | ADD commons-fileupload 	|									|
-|	 | ADD thumbnailator		| 									|
-|	 +==========================+									|
-|	 																|
-|	 +=============== Validation ===============+					|
-|	 | ADD hibernate-validator version 6.1.7	|					|	
-|	 | ADD jakarta.validation-api version 2.0.2	|					|
-|	 +==========================================+					|
-|																	|
-|	+=========== mail && sms ===========+							|
-|	| ADD spring-context-support		|							|
-|	| ADD javax.mail					|							|
-|	| ADD sdk							|							|
-|	+===================================+							|
-|																	|
-|	+========== Other ==========+									|
-|	| ADD lombok				|									|
-|	| ADD jackson-databind		|									|
-| 	| ADD jakarta.el			|									|
-|	| ADD selenium-java			|									|
-|	+===========================+									|
-|																	|
-|																	|
-+===================================================================+
- 
-+=================== <plugin> ======================+
-| ADD maven-war-plugin 								|
-| CHANGE maven-eclipse-plugin version 2.9 -> 2.10	|
-| CHANGE maven-compiler version 2.5.1 -> 3.8.1		|
-| CHANGE configuration :							|
-| 	source : version to reference					|
-| 	target : version to reference 					|
-|CHANGE exec-maven-plugin version 1.2.1 -> 3.0.0  	|
-+===================================================+
-
-```
+![dependency2](/assets/img/betty/intro/bottom.png)
+<br/>
 
 변경 사항에 대하여 최대한 알아보기 쉽게 작성했다.  
 
 **AOP** 는 아직 정확히 뭘 해야 어노테이션식 적용을 할 수 있는 지 모르겠다.  
 @EnableAspectJAutoProxy 내부에 들어가보면, 아래처럼 적혀있긴 하다.
-```
- * <p>This feature requires the presence of {@code aspectjweaver} on the classpath.
- * While that dependency is optional for {@code spring-aop} in general, it is required
- * for {@code @EnableAspectJAutoProxy} and its underlying facilities.
-```
+<br/>
+
+![eajap](/assets/img/betty/intro/eajap.png)
 
 **Servlet** 쪽은 프로젝트 생성시 나타나는 servlet-api, jsp-api 를 지우고 아래 것들을 추가했다.  
 이건 그냥 수업 때 하던 걸 그냥 따라했다.  

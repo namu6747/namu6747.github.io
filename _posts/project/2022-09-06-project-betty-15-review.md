@@ -7,25 +7,25 @@ tags: [스프링, 자바, 포트폴리오]
 ---
 
 ## &nbsp;&nbsp;&nbsp; index
-1. [서론](/posts/project-betty-0/)
-2. [기획 및 명세](/posts/project-betty-1-concept/)
-3. [패키지 트리](/posts/project-betty-2-package-tree/)
-4. [프로젝트 환경](/posts/project-betty-3-config/)
-5. [메시지와 국제화](/posts/project-betty-4-message/)
-6. [예외 다루기](/posts/project-betty-5-exception/)
-7. [검증](/posts/project-betty-6-validation/)
-8. [계정 관련](/posts/project-betty-7-sign/)
-9. [권한 인터셉터](/posts/project-betty-8-interceptor/)
-10. [도서 관련](/posts/project-betty-9-book/)
-11. [대여 관련](/posts/project-betty-10-rental/)
-12. [오프라인 관련](/posts/project-betty-11-offline/)
-13. [about ajax](/posts/project-betty-12-ajax/)
-14. [팀원 교육 - ajax](/posts/project-betty-13-edu-ajax/)
-15. [DTO, Form, VO, Entity ?](/posts/project-betty-14-object/)
-16. [후기](/posts/project-betty-15-review/)
+0. [서론](/posts/project-betty-0/)
+1. [기획 및 명세](/posts/project-betty-1-concept/)
+2. [패키지 트리](/posts/project-betty-2-package-tree/)
+3. [프로젝트 환경](/posts/project-betty-3-config/)
+4. [메시지와 국제화](/posts/project-betty-4-message/)
+5. [예외 다루기](/posts/project-betty-5-exception/)
+6. [검증](/posts/project-betty-6-validation/)
+7. [계정 관련](/posts/project-betty-7-sign/)
+8. [권한 인터셉터](/posts/project-betty-8-interceptor/)
+9. [도서 관련](/posts/project-betty-9-book/)
+10. [대여 관련](/posts/project-betty-10-rental/)
+11. [오프라인 관련](/posts/project-betty-11-offline/)
+12. [about ajax](/posts/project-betty-12-ajax/)
+13. [팀원 교육 - ajax](/posts/project-betty-13-edu-ajax/)
+14. [DTO, Form, VO, Entity ?](/posts/project-betty-14-object/)
+15. [후기](/posts/project-betty-15-review/)
 
-<hr/>
 <br/>
+<hr/>
 
 정말 많이 힘들었다.  
 다시 한 달 전으로 돌아가서 하라하면 내가 과연 할 수 있을까 싶지만  
@@ -33,7 +33,7 @@ tags: [스프링, 자바, 포트폴리오]
 
 소개한 것 이외에도 정말 많이 건드렸다.  
 
-프론트는 특히 싹다 건드렸다.  
+**프론트는 특히 싹다 건드렸다.**  
 이건 내 잘못도 있었는데  
 section container 에 대한 기준을 잡아줬어야 했다.  
 결국 첫 주에 맡긴 프론트 작업을 다음 한 주 동안 싹다 손봐야 했다.  
@@ -49,7 +49,7 @@ section container 에 대한 기준을 잡아줬어야 했다.
 
 기교 부리지 않는 선에서 필요한 기능들을 사용하고  
 깃헙으로 어떻게 협업이 진행되는 지 교육해주고  
-뭐든 최대한 알려주려했다. 좋은 곳에 취업할 수 있도록  
+좋은 곳에 취업할 수 있도록 뭐든 최대한 알려주려했다.  
 
 떠먹여 준 것도 아니다.  
 다들 알아서 잘 해냈다.  
@@ -77,8 +77,14 @@ section container 에 대한 기준을 잡아줬어야 했다.
 
 <br/>
 
-아무튼 기능적인건 나머지 대부분 비슷비슷한 것들이니깐 그만 다뤄야겠다.  
+**인덱싱**  
+많은 도서 데이터를 활용해보고 데이터베이스 인덱스의 중요성을 또다시 느꼈다.  
+검색이 필요할 때 반드시 인덱스 컬럼으로 찾도록 sql 을 짜야된다.  
 
+**예외**  
+역시 정상 로직보단 예외에 대한 경우의 수를 철저히 방어하는 게 훨씬 어려운 것 같다.  
+
+아무튼 기능적인건 나머지 대부분 비슷비슷한 것들이니깐 그만 다뤄야겠다.  
 
 <br/>
 <hr/>

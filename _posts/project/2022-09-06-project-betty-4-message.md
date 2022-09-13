@@ -7,25 +7,25 @@ tags: [스프링, 자바, 포트폴리오]
 ---
 
 ## &nbsp;&nbsp;&nbsp; index
-1. [서론](/posts/project-betty-0/)
-2. [기획 및 명세](/posts/project-betty-1-concept/)
-3. [패키지 트리](/posts/project-betty-2-package-tree/)
-4. [프로젝트 환경](/posts/project-betty-3-config/)
-5. [메시지와 국제화](/posts/project-betty-4-message/)
-6. [예외 다루기](/posts/project-betty-5-exception/)
-7. [검증](/posts/project-betty-6-validation/)
-8. [계정 관련](/posts/project-betty-7-sign/)
-9. [권한 인터셉터](/posts/project-betty-8-interceptor/)
-10. [도서 관련](/posts/project-betty-9-book/)
-11. [대여 관련](/posts/project-betty-10-rental/)
-12. [오프라인 관련](/posts/project-betty-11-offline/)
-13. [about ajax](/posts/project-betty-12-ajax/)
-14. [팀원 교육 - ajax](/posts/project-betty-13-edu-ajax/)
-15. [DTO, Form, VO, Entity ?](/posts/project-betty-14-object/)
-16. [후기](/posts/project-betty-15-review/)
+0. [서론](/posts/project-betty-0/)
+1. [기획 및 명세](/posts/project-betty-1-concept/)
+2. [패키지 트리](/posts/project-betty-2-package-tree/)
+3. [프로젝트 환경](/posts/project-betty-3-config/)
+4. [메시지와 국제화](/posts/project-betty-4-message/)
+5. [예외 다루기](/posts/project-betty-5-exception/)
+6. [검증](/posts/project-betty-6-validation/)
+7. [계정 관련](/posts/project-betty-7-sign/)
+8. [권한 인터셉터](/posts/project-betty-8-interceptor/)
+9. [도서 관련](/posts/project-betty-9-book/)
+10. [대여 관련](/posts/project-betty-10-rental/)
+11. [오프라인 관련](/posts/project-betty-11-offline/)
+12. [about ajax](/posts/project-betty-12-ajax/)
+13. [팀원 교육 - ajax](/posts/project-betty-13-edu-ajax/)
+14. [DTO, Form, VO, Entity ?](/posts/project-betty-14-object/)
+15. [후기](/posts/project-betty-15-review/)
 
-<hr/>
 <br/>
+<hr/>
 
 국제화는 이번 프로젝트에서 꽤 귀여운 기능 아닐까?  
 
