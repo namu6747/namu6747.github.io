@@ -1,5 +1,5 @@
 ---
-title: 13. 팀원 교육 - ajax - Betty
+title: 13. 지식 공유 - ajax - Betty
 author: namu6747
 date: 2022-09-06 09:13:00 +0900
 categories: [프로젝트, Betty]
@@ -26,8 +26,12 @@ tags: [스프링, 자바, 포트폴리오]
 
 <br/>
 <hr/>
+<br/>
 
 &nbsp;**_ajax 로 hello world 는 할 줄 알아야지_**
+
+ajax 를 직접 사용해보며 겪은 시행착오에 대한 내용이다.  
+팀원들에게도 알려주려고 여러 경우의 수를 추가하여 작성했다.  
 
 <br/>
 <hr/>
@@ -322,23 +326,22 @@ public Data testMulti(@RequestBody Data data) {
 
 ## 정리
 
-```
-1. RequestBody 는 순수한 텍스트를 읽어준다.
-하지만 다양한 메시지 컨버터들에 치여 예상치 못한 결과가 나타나기도 한다.
-텍스트 자체를 전달하고 싶다면, 객체를 보낼 게 아니라 값 자체를 전달해야 된다.
+1. **RequestBody** 는 순수한 텍스트를 읽어준다.  
+하지만 다양한 메시지 컨버터들에 치여 예상치 못한 결과가 나타나기도 한다.  
+텍스트 자체를 전달하고 싶다면, 객체를 보낼 게 아니라 값만 전달해야 된다.  
 
-2. 객체를 전달하고 싶다면 클라이언트 측에서 stringify 메소드를 사용해야 된다.
-RequestBody의 역할은 JSON 타입 자체의 해석이 아닌, JSON 형태의 문자열을 해석해주고
-Jackson 라이브러리의 힘을 빌려 동일한 필드에 바인딩 해주는 것.
+2. 객체를 전달하고 싶다면 클라이언트 측에서 **stringify** 메소드를 사용해야 된다.  
+**RequestBody** 의 역할은 JSON 타입 자체의 해석이 아닌, JSON 형태의 문자열을 해석해주고
+Jackson 라이브러리의 힘을 빌려 필드에 바인딩 해주는 것.
 
-3. 또한 json 형태의 문자열은 일반 문자열과 구분할 수 없다.
-그러므로 클라이언트 측에선 메시지 바디에 들어갈 이 문자열이 json 타입임을 선언해줘야
-하는데, 메시지 바디에 대한 설명이 들어가는 HTTP 프로토콜의 영역이 Header 이다.
-Header 의 내용 중 하나가 Content-type 인데 
-Content-type 은 송신자가 수신자에게 메시지바디가 어떤 MIME 타입임을 알려준다.
-그래서 Content-type 이 "application/json" 인 "문자열" 을 
-@RequestBody와 jackson 라이브러리가 약속이 맞을 때 key, value 를 정상 바인딩 한다.
-```
+3. json 형태의 문자열은 일반 문자열과 구분할 수 없다.  
+클라이언트 측에서 메시지 바디에 들어갈 문자열이 json 타입임을 선언해줘야하는데,   
+이 바디에 대한 정보를 알려주는 HTTP 프로토콜의 영역이 Header 이다.  
+Header 의 내용 중 하나가 Content-type 인데  
+**Content-type** 은 HTTP 바디가 어떤 MIME 타입임을 알려준다.  
+그래서 Content-type 이 "**application/json**" 인 **문자열**을  
+@RequestBody 와 jackson-databind 가 해석 후 인자에 바인딩한다.  
+(참고로 http message body 는 payload 라고도 불리는 걸로 알고 있다.)
 
 <br/>
 <hr/>
