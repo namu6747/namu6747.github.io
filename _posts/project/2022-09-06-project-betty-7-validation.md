@@ -20,8 +20,8 @@ tags: [스프링, 자바, 포트폴리오]
 11. [대여 관련](/posts/project-betty-11-rental/)
 12. [오프라인 관련](/posts/project-betty-12-offline/)
 13. [about ajax](/posts/project-betty-13-ajax/)
-14. [팀원 교육 - ajax](/posts/project-betty-14-edu-ajax/)
-15. [DTO, Form, VO, Entity ?](/posts/project-betty-15-object/)
+14. [지식 공유 - ajax](/posts/project-betty-14-edu-ajax/)
+15. [DTO, Form, VO, Entity](/posts/project-betty-15-object/)
 16. [후기](/posts/project-betty-16-review/)
 
 <br/>
