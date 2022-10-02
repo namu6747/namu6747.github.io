@@ -1,3 +1,1 @@
-﻿# namu6747 blog
-
-이것저것
+# https://namu6747.github.io/
